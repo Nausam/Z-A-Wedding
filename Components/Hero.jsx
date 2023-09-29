@@ -5,12 +5,13 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section className="w-full mt-64 mb-16">
+    <section id="home" className="w-full mt-64 mb-16">
       <div className="flex max-w-6xl mx-auto py-8 px-10 items-center p-5 bg-white rounded-xl shadow-xl mt-16 mb-16">
         <div className="flex items-center mx-auto">
           <div className=" text-center">
-            <h1 className="sm:text-7xl text-5xl dark:text-gray-300 text-gray-800 font-bold tracking-wide">
-              Zameen & Afaa
+            <h1 className="sm:text-7xl text-6xl dark:text-gray-300 text-gray-800 font-bold tracking-wide leading-tight">
+              Zameen <br className="flex sm:hidden" /> &
+              <br className="flex sm:hidden" /> Afaa
             </h1>
             <p className="text-gray-500 mt-5 max-w-full tracking-wide text-xl font-bold">
               Friday December 8th, 2023 <br />

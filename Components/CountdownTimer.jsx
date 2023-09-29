@@ -39,7 +39,7 @@ class CountdownTimer extends Component {
     const seconds = timeRemaining % 60;
 
     return (
-      <div className="flex gap-4">
+      <div className="flex gap-4 flex-wrap items-center justify-center">
         <div className="w-[100px] text-center border-2 border-white rounded-xl p-5 flex-col">
           <h2 className="text-3xl font-bold">{days}</h2> <p>Days</p>
         </div>

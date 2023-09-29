@@ -6,7 +6,7 @@ const LoveStory = () => {
     <section id="love-story" className="w-full">
       <div className="flex max-w-6xl mx-auto justify-center bg-white rounded-xl shadow-xl mt-16 mb-16">
         <div className="flex mt-20 mb-36 flex-col  mx-auto items-center justify-center text-center">
-          <div className="max-w-full mx-auto">
+          <div className="max-w-xl mx-auto">
             <h1 className="md:text-6xl text-5xl md:max-w-full max-w-md font-bold dark:text-gray-300 tracking-wide">
               Our Love Story
             </h1>
@@ -16,11 +16,11 @@ const LoveStory = () => {
             <div className="flex gap-5 mx-auto mt-5 flex-wrap items-center md:justify-start justify-center"></div>
           </div>
 
-          <div className="flex flex-col mt-5">
+          <div className="flex flex-col mt-5 max-w-xs">
             <h2 className="text-xl font-medium">
               When Abdullah Zameen & Fathimath Afaa met
             </h2>
-            <p>That day changed everything</p>
+            <p className="mt-2">That day changed everything</p>
           </div>
 
           <div className="mt-20">
