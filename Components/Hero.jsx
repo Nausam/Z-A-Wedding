@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section id="home" className="w-full mb-16 mt-28">
-      <div className="flex max-w-6xl mx-auto py-32 px-10 items-center p-5 justify-center  bg-white rounded-xl shadow-xl mt-16 mb-16">
+    <section id="home" className="w-full mb-16 mt-16">
+      <div className="flex max-w-6xl mx-auto py-36 px-10 items-center p-5 justify-center  bg-white rounded-xl shadow-xl mt-16 mb-16">
         <div className="flex items-center mx-auto">
           <div className=" text-center">
             <h1 className="sm:text-7xl text-6xl dark:text-gray-300 text-gray-800 font-bold tracking-wide leading-tight mt-10">
