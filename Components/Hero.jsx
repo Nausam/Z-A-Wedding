@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <section id="home" className="w-full mb-16">
-      <div className="flex max-w-6xl mx-auto py-36 px-10 items-center p-5 justify-center  bg-white rounded-xl shadow-xl mt-10 mb-16 relative bg-gradient-to-r from-[#ead9c9] via-[#fbf8f1] to-[#ead9c9] overflow-hidden">
+      <div className="flex max-w-6xl mx-auto py-60 px-10 items-center p-5 justify-center  bg-white rounded-xl shadow-xl mb-16 relative bg-gradient-to-r from-[#ead9c9] via-[#fbf8f1] to-[#ead9c9] overflow-hidden">
         <div className="flex items-center mx-auto z-10 relative">
           <div className="text-center">
             <h1 className="sm:text-7xl text-6xl dark:text-gray-300 text-gray-800 font-bold tracking-wide leading-tight mt-10">

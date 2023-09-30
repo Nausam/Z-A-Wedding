@@ -4,7 +4,7 @@ import Image from "next/image";
 const WeddingEvent = () => {
   return (
     <section id="wedding" className="w-full ">
-      <div className="flex max-w-6xl mx-auto justify-center bg-[#eed9c4] rounded-xl shadow-xl ">
+      <div className="flex py-10 max-w-6xl mx-auto justify-center bg-[#eed9c4] rounded-xl shadow-xl ">
         <div className="flex mt-10 mb-16 flex-col  mx-auto items-center justify-center text-center">
           <div className="max-w-full mx-auto mt-16 ">
             <h1 className="md:text-6xl text-5xl md:max-w-full max-w-md font-bold dark:text-gray-300 tracking-wide">
