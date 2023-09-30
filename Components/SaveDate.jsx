@@ -3,11 +3,6 @@ import Image from "next/image";
 import CountdownTimer from "./CountdownTimer";
 
 const SaveDate = () => {
-  var currentDate = new Date();
-  var targetDate = new Date("2023-12-08T00:00:00");
-
-  var timeDifferenceInSeconds = Math.floor((targetDate - currentDate) / 1000);
-
   return (
     <section id="date" className="w-full ">
       <div className="flex max-w-6xl mx-auto justify-between bg-[#eed9c4] rounded-xl shadow-xl">
@@ -20,7 +15,7 @@ const SaveDate = () => {
               Friday December 8th, 2023 Raa Hulhudhuffaaru.
             </h2>
             <div className="flex gap-5 mx-auto mt-5 flex-wrap items-center md:justify-start justify-center">
-              <CountdownTimer initialTime={timeDifferenceInSeconds} />
+              <CountdownTimer />
             </div>
           </div>
 
