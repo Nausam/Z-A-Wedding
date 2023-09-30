@@ -4,7 +4,7 @@ import Image from "next/image";
 const LoveStory = () => {
   return (
     <section id="love-story" className="w-full">
-      <div className="flex max-w-6xl mx-auto justify-center bg-white rounded-xl shadow-xl mt-16 mb-16">
+      <div className="flex max-w-6xl mx-auto justify-center bg-white rounded-xl shadow-xl mt-16 mb-16 bg-gradient-to-r from-[#ead9c9] via-[#fbf8f1] to-[#ead9c9]">
         <div className="flex mt-20 mb-36 flex-col  mx-auto items-center justify-center text-center">
           <div className="max-w-xl mx-auto">
             <h1 className="md:text-6xl text-5xl md:max-w-full max-w-md font-bold dark:text-gray-300 tracking-wide">
@@ -23,12 +23,29 @@ const LoveStory = () => {
             <p className="mt-2">That day changed everything</p>
           </div>
 
-          <div className="mt-20">
+          <div className="mt-14 relative w-full flex justify-center items-center">
             <Image
-              alt="Hugging image"
+              alt="Heart image"
               src="/assets/images/in-heart.png"
               width={250}
               height={250}
+              unoptimized
+              className="z-10"
+            />
+            <Image
+              alt="Leaf image"
+              src="/assets/vectors/leaf-up.png"
+              width={100}
+              height={100}
+              className="absolute md:left-[270px] left-56 bottom-14"
+            />
+
+            <Image
+              alt="Leaf image"
+              src="/assets/vectors/leaf-up-left.png"
+              width={100}
+              height={100}
+              className="absolute md:right-[270px] right-56 bottom-14"
             />
           </div>
 
@@ -117,12 +134,29 @@ const LoveStory = () => {
             </div>
           </div>
 
-          <div className="mt-5">
+          <div className="mt-5 relative w-full flex justify-center items-center">
             <Image
-              alt="Hugging image"
+              alt="Heart image"
               src="/assets/images/in-heart.png"
               width={250}
               height={250}
+              unoptimized
+              className="z-10"
+            />
+            <Image
+              alt="Leaf image"
+              src="/assets/vectors/leaf-up.png"
+              width={100}
+              height={100}
+              className="absolute md:left-[270px] left-56 bottom-14"
+            />
+
+            <Image
+              alt="Leaf image"
+              src="/assets/vectors/leaf-up-left.png"
+              width={100}
+              height={100}
+              className="absolute md:right-[270px] right-56 bottom-14"
             />
           </div>
         </div>

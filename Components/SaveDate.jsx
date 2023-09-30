@@ -3,14 +3,10 @@ import Image from "next/image";
 import CountdownTimer from "./CountdownTimer";
 
 const SaveDate = () => {
-  const currentDate = new Date();
-  const targetDate = new Date("2023-12-08T00:00:00"); // December 8, 2023, at midnight
+  var currentDate = new Date();
+  var targetDate = new Date("2023-12-08T00:00:00");
 
-  console.log("Current Date:", currentDate);
-  console.log("Target Date:", targetDate);
-
-  const timeDifferenceInSeconds = Math.floor((targetDate - currentDate) / 1000);
-  console.log("Time Difference (seconds):", timeDifferenceInSeconds);
+  var timeDifferenceInSeconds = Math.floor((targetDate - currentDate) / 1000);
 
   return (
     <section id="date" className="w-full ">
