@@ -6,32 +6,11 @@ import { useEffect } from "react";
 import { motion } from "framer-motion";
 
 const Hero = () => {
-  useEffect(() => {
-    const openCalendar = () => {
-      const eventName = "Zameen & Afaa's Wedding";
-      const eventDate = "2023-12-08";
-      const eventLocation = "Raa Hulhudhuffaaru";
-
-      const webcalUrl = `webcal://www.example.com/events/${encodeURIComponent(
-        eventName
-      )}/${eventDate}/${encodeURIComponent(eventLocation)}`;
-
-      window.open(webcalUrl, "_blank");
-    };
-
-    const button = document.getElementById("saveTheDateButton");
-    button.addEventListener("click", openCalendar);
-
-    return () => {
-      button.removeEventListener("click", openCalendar);
-    };
-  }, []);
-
   return (
-    <section id="home" className="w-full mb-16 mt-16">
-      <div className="flex max-w-6xl mx-auto py-36 px-10 items-center p-5 justify-center  bg-white rounded-xl shadow-xl mt-16 mb-16 relative bg-gradient-to-r from-[#ead9c9] via-[#fbf8f1] to-[#ead9c9]">
+    <section id="home" className="w-full mb-16">
+      <div className="flex max-w-6xl mx-auto py-36 px-10 items-center p-5 justify-center  bg-white rounded-xl shadow-xl mt-10 mb-16 relative bg-gradient-to-r from-[#ead9c9] via-[#fbf8f1] to-[#ead9c9] overflow-hidden">
         <div className="flex items-center mx-auto z-10 relative">
-          <div className=" text-center">
+          <div className="text-center">
             <h1 className="sm:text-7xl text-6xl dark:text-gray-300 text-gray-800 font-bold tracking-wide leading-tight mt-10">
               Zameen <br className="flex sm:hidden" /> &
               <br className="flex sm:hidden" /> Afaa
@@ -41,7 +20,7 @@ const Hero = () => {
               src="/assets/vectors/leaf-up.png"
               width={200}
               height={200}
-              className="hidden sm:block absolute md:left-[400px] left-[400px] bottom-8"
+              className="hidden sm:block absolute md:left-[450px] left-[400px] bottom-8"
             />
 
             <Image
@@ -49,7 +28,7 @@ const Hero = () => {
               src="/assets/vectors/leaf-up.png"
               width={200}
               height={200}
-              className="hidden sm:block absolute transform scale-x-[-1] md:right-[400px] right-[400px] bottom-8"
+              className="hidden sm:block absolute transform scale-x-[-1] md:right-[450px] right-[400px] bottom-8"
             />
 
             <Image
@@ -57,7 +36,7 @@ const Hero = () => {
               src="/assets/vectors/leaf-up.png"
               width={200}
               height={200}
-              className="block sm:hidden absolute top-0 left-44 -z-10"
+              className="block sm:hidden absolute top-5 left-[220px] -z-10"
             />
 
             <Image
@@ -65,7 +44,7 @@ const Hero = () => {
               src="/assets/vectors/leaf-up.png"
               width={200}
               height={200}
-              className="block sm:hidden absolute top-0 right-44 -z-10 transform scale-x-[-1]"
+              className="block sm:hidden absolute top-5 right-[220px] -z-10 transform scale-x-[-1]"
             />
 
             <p className="text-gray-600 mt-5 max-w-full tracking-wide text-xl font-bold">

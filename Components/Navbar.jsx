@@ -19,7 +19,7 @@ const NavBar = () => {
       initial={{ opacity: 0, y: -100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.7 }}
-      className="fixed top-0 backdrop-blur-md w-full z-30 rounded-lg"
+      className="sticky top-0 backdrop-blur-md w-full z-30 rounded-lg"
     >
       <div className="lg:max-w-6xl mx-auto max-2xl py-2 px-4 lg:px-0 shadow-lg">
         <div className="flex items-center justify-between rounded-xl p-3 ">

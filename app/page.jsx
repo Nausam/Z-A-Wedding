@@ -8,7 +8,7 @@ import WeddingEvent from "@/Components/WeddingEvent";
 export default function Home() {
   return (
     <section>
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <SaveDate />
       <LoveStory />
