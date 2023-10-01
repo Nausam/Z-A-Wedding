@@ -18,9 +18,11 @@ const LoveStory = () => {
 
           <div className="flex flex-col mt-5 max-w-xs">
             <h2 className="text-xl font-medium">
-              When Abdullah Zameen & Fathimath Afaa met
+              When Abdullah Zameen and Fathimath Afaa crossed paths,
             </h2>
-            <p className="mt-2">That day changed everything</p>
+            <p className="mt-2">
+              Little did they know, their destinies were set to dance.
+            </p>
           </div>
 
           <div className="mt-14 relative w-full flex justify-center items-center">
