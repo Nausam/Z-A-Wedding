@@ -25,6 +25,7 @@ const SaveDate = () => {
               src="/assets/images/wedding-cake.svg"
               width={500}
               height={500}
+              className="drop-shadow-lg"
             />
           </div>
         </div>

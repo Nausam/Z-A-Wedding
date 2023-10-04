@@ -18,7 +18,7 @@ const Hero = () => {
         />
         <div className="flex items-center mx-auto z-10 relative">
           <div className="text-center">
-            <h1 className="sm:text-7xl text-6xl dark:text-gray-300 text-gray-800 font-bold tracking-wide leading-tight mt-10">
+            <h1 className="sm:text-7xl text-6xl dark:text-gray-300 text-gray-800 font-bold tracking-wide leading-tight mt-10 drop-shadow-lg">
               Zameen <br className="flex sm:hidden" /> &
               <br className="flex sm:hidden" /> Afaa
             </h1>

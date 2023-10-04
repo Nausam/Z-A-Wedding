@@ -32,7 +32,7 @@ const LoveStory = () => {
               width={250}
               height={250}
               unoptimized
-              className="z-10"
+              className="z-10 drop-shadow-lg"
             />
             <Image
               alt="Leaf image"
@@ -143,7 +143,7 @@ const LoveStory = () => {
               width={250}
               height={250}
               unoptimized
-              className="z-10"
+              className="z-10 drop-shadow-lg"
             />
             <Image
               alt="Leaf image"
