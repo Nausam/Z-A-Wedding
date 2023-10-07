@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useEffect } from "react";
 
 import { motion } from "framer-motion";
-import Design from "./Design";
+import Link from "next/link";
 
 const Hero = () => {
   useEffect(() => {
@@ -37,7 +37,7 @@ const Hero = () => {
             <motion.h1
               initial={{ opacity: 0, scale: 3 }}
               animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 1 }}
+              transition={{ duration: 0.7 }}
               className="sm:text-7xl text-6xl dark:text-gray-300 text-gray-800 font-bold tracking-wide leading-tight mt-10 drop-shadow-lg"
             >
               <span className="animate-letter">Z</span>
@@ -60,7 +60,7 @@ const Hero = () => {
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ duration: 2 }}
+              transition={{ duration: 0.5 }}
             >
               <Image
                 alt="Leaf image"
@@ -123,15 +123,24 @@ const Hero = () => {
               commitment
             </motion.p>
 
-            <motion.button
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
+            <motion.div
+              initial={{ opacity: 0, y: 100 }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
-              id="saveTheDateButton"
-              className="mt-10 mb-10  hover:bg-[#EAD9C9] hover:text-[#C3937C]  border-[#C3937C] border-2 hover:border-[#e8cdb4] transition-all duration-300 text-[#C3937C] py-5 px-10 rounded-full text-lg font-bold tracking-wide"
             >
-              Save The Date
-            </motion.button>
+              <Link
+                href="#date"
+                className="w-full flex items-center justify-center mt-10"
+              >
+                <Image
+                  alt="Leaf image"
+                  src="/assets/images/save-the-date.png"
+                  width={150}
+                  height={150}
+                  className="drop-shadow-lg transform hover:scale-110 transition duration-500 ease-in-out cursor-pointer"
+                />
+              </Link>
+            </motion.div>
           </div>
         </div>
       </div>

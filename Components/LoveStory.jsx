@@ -16,9 +16,9 @@ const LoveStory = () => {
             <div className="flex gap-5 mx-auto mt-5 flex-wrap items-center md:justify-start justify-center"></div>
           </div>
 
-          <div className="flex flex-col mt-5 max-w-xs">
+          <div className="flex flex-col mt-5 max-w-md">
             <h2 className="text-xl font-medium">
-              When Abdullah Zameen and Fathimath Afaa crossed paths,
+              When Zameen and Afaa crossed paths,
             </h2>
             <p className="mt-2">
               Little did they know, their destinies were set to dance.
