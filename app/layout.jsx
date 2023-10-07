@@ -11,7 +11,7 @@ import { Courgette } from "next/font/google";
 const inter = Courgette({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
-  title: "Invitation",
+  title: "Wedding Invitation",
   description: "Zameen & Afaa's Wedding Invitation",
 };
 
